@@ -1,0 +1,6 @@
+# dsh-onmyoji-sidebar bundle patch: one host row that serves the sidebar tab's
+# status/control route. The browser half registers the tab itself through
+# ctx.betterSidebar, so no UI registration happens here.
+- insert:
+    - id: onmyoji-sidebar
+      name: 'dsh-onmyoji-sidebar'
